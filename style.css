@@ -1,0 +1,104 @@
+/*---- GENERAL ------*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+   }
+    html {
+        box-sizing: border-box;
+    }
+
+/*------MOBILE FIRST----*/
+
+/*-----HEADER -----*/
+.fondo {
+    width: 100%;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.nombre {
+    width: 100%;
+    text-align: center;
+}
+
+.frase1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: aliceblue;
+    padding: 20px;
+
+}
+
+.frase2 {
+    font-size: 20px;
+    color: aliceblue;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+/*----- MAIN -----*/
+
+
+.omar {
+    width: 100%;
+}
+
+.main-nombre {
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.sub-nombre {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.descripcion {
+    color: rgb(71, 71, 71);
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.boton-diseno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a {
+   text-decoration: none;
+}
+
+.boton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(40, 40, 40);
+
+
+}
