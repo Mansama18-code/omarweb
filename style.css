@@ -105,6 +105,33 @@ a {
 
 }
 
+
+/*--- Proyectos --*/
+
+.titulo-proyectos {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.proyectos {
+
+    padding: 20px;
+}
+.cards {
+
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(57, 57, 57);
+
+    border-radius: 10px;
+
+}
+
 /*---- Footer ----*/ 
 
 .main-footer {
