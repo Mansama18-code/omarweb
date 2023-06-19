@@ -9,6 +9,9 @@
         box-sizing: border-box;
     }
 
+a {
+    text-decoration: none;
+}
 /*------MOBILE FIRST----*/
 
 /*-----HEADER -----*/
@@ -82,12 +85,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
-a {
-   text-decoration: none;
-}
+
 
 .boton1 {
     display: flex;
@@ -101,4 +103,25 @@ a {
     background-color: rgb(40, 40, 40);
 
 
+}
+
+/*---- Footer ----*/ 
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-footer p, a {
+
+    margin-right: 10px;
 }
